@@ -2,9 +2,9 @@ package pkt;
 
 /**
  * 
- * @author MFA
- * Hesap ve Kart örneklerini detaylı test eden sınıf.
- * Para çekme ve para yatırma işlemleri de test ediliyor.
+ * 
+ * 
+ * 
  */
 public class Program {
 	public static void main(String[] args) {
