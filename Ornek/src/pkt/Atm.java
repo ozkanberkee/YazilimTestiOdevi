@@ -17,7 +17,6 @@ public class Atm {
 	 */
 
 	public boolean paraCek(IKart kart,String sifre, double miktar) {
-		if(!kart.girisKontrol(sifre)) return false;
 	}
 	
 	public boolean paraYatir(IKart kart,String sifre, double miktar) {
