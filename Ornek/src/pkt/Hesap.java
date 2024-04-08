@@ -13,10 +13,7 @@ public class Hesap implements IHesap {
 	
 	
 	
-	@Override
-	public String getNo() {
-		return no;
-	}
+	
 
 	@Override
 	public boolean paraCek(double miktar) {
