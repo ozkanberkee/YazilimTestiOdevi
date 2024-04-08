@@ -2,9 +2,9 @@ package pkt;
 
 /**
  * 
- * 
- * 
- * 
+ * @author MFA
+ * Hesap ve Kart örneklerini detaylı test eden sınıf.
+ * Para çekme ve para yatırma işlemleri de test ediliyor.
  */
 public class Program {
 	public static void main(String[] args) {
@@ -15,6 +15,9 @@ public class Program {
 		
 		Atm atm = new Atm(); // yeni atm nesnesi
 		
+		/*
+		 * Para yatırma denemesi
+		 */
 		if(atm.paraYatir(bankaKarti, "123456", 500)) System.out.println("Başarılı");
 		else System.out.println("Hata");
 		
