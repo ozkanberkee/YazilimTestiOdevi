@@ -18,8 +18,11 @@ public class Hesap implements IHesap {
 		bakiye = 0;
 	}
 	
+	@Override
+	public String getNo() {
+		return no;
+	}
 	
-
 	@Override
 	public boolean paraCek(double miktar) {
 		/*
