@@ -15,9 +15,6 @@ public class Program {
 		
 		Atm atm = new Atm(); // yeni atm nesnesi
 		
-		/*
-		 * Para yatırma denemesi
-		 */
 		if(atm.paraYatir(bankaKarti, "123456", 500)) System.out.println("Başarılı");
 		else System.out.println("Hata");
 		
