@@ -13,6 +13,7 @@ public class Hesap implements IHesap {
 	
 	public Hesap()
 	{
+		this.no = UUID.randomUUID().toString(); // Rastgele bir Id belirleniyor...
 		// Hesap açılışı bakiye sıfır.
 		bakiye = 0;
 	}
@@ -32,21 +33,6 @@ public class Hesap implements IHesap {
 		return true;
 	}
 
-	@Override
-	public boolean paraYatir(double miktar) {
-		if(miktar <= 0) return false; // miktar kontrolü
-		bakiye += miktar;
-		return true;
-	}
 
-	@Override
-	public double getBakiye() {
-		return bakiye;
-	}
-	
-	@Override
-	public String toString() {
-		return "Hesap No: " + no + "\nBakiye: " + bakiye;
-	}
 
 }
