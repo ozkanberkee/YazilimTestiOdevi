@@ -25,12 +25,7 @@ public class Hesap implements IHesap {
 		return true;
 	}
 
-	@Override
-	public boolean paraYatir(double miktar) {
-		if(miktar <= 0) return false; // miktar kontrolü
-		bakiye += miktar;
-		return true;
-	}
+	
 
 
 
