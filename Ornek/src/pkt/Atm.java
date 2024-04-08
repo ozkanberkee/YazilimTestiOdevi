@@ -16,8 +16,7 @@ public class Atm {
 	 * @return Para çekme işleminin başarılımı geçtiğini döndürür.
 	 */
 
-	public boolean paraCek() {
-	}
+	
 	
 	public boolean paraYatir(IKart kart,String sifre, double miktar) {
 		// Şifre kontrolü
