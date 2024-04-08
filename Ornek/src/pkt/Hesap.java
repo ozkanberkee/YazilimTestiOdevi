@@ -11,6 +11,15 @@ public class Hesap implements IHesap {
 	private String no;
 	private double bakiye;
 	
+	public Hesap()
+	{
+		this.no = UUID.randomUUID().toString(); // Rastgele bir Id belirleniyor...
+		// Hesap açılışı bakiye sıfır.
+		bakiye = 0;
+	}
+	
+	
+
 	@Override
 	public boolean paraCek(double miktar) {
 		/*
@@ -20,16 +29,13 @@ public class Hesap implements IHesap {
 		bakiye -= miktar;
 		return true;
 	}
-	
-	
-@Override
+
+	@Override
 	public boolean paraYatir(double miktar) {
 		if(miktar <= 0) return false; // miktar kontrolü
 		bakiye += miktar;
 		return true;
 	}
-
-	
 
 
 
