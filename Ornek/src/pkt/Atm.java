@@ -20,9 +20,5 @@ public class Atm {
 		return kart.getHesap().paraCek(miktar);
 	}
 	
-	public boolean paraYatir(IKart kart,String sifre, double miktar) {
-		// Şifre kontrolü
-		if(!kart.girisKontrol(sifre)) return false;
-		return kart.getHesap().paraYatir(miktar);
-	}
+	
 }
