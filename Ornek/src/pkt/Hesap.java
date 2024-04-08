@@ -32,14 +32,6 @@ public class Hesap implements IHesap {
 		return true;
 	}
 
-	@Override
-	public double getBakiye() {
-		return bakiye;
-	}
-	
-	@Override
-	public String toString() {
-		return "Hesap No: " + no + "\nBakiye: " + bakiye;
-	}
+
 
 }
