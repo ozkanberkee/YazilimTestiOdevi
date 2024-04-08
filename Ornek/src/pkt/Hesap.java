@@ -16,7 +16,10 @@ public class Hesap implements IHesap {
 		// Hesap açılışı bakiye sıfır.
 		bakiye = 0;
 	}
-	
+	@Override
+	public String getNo() {
+		return no;
+	}
 	
 
 }
